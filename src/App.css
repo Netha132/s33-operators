@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.App {
+  text-align: center;
+}
+form{
+  display: inline-block;
+  /* background-color: aqua; */
+  margin: 10px;
+}
+form label{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+form div{
+  margin: 10px;
+}
+body{
+  background-color: #735DA5;
+}
+span{
+   width: 100px;
+   display: inline-block;
+   filter: drop-shadow(5px 5px 6px #000) ;
+   font-weight: 800;
+}
+fieldset{
+  background-color: #D3C5E5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #b68aeffa;
+  border: 2px double #000;
+  margin: 20px;
+}
+legend{
+  text-align: left;
+  font-weight: 600;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.animated-button {
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.animated-button:hover {
+  background-color: #3700b3;
+  transform: scale(1.1);
+}
+
+.animated-button:active {
+  transform: scale(1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+p{
+  font-weight: 600;
+}
+input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+h1{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
